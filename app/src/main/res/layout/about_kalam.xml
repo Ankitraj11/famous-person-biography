@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutKalamActivity"
+    android:orientation="vertical">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#C0DDC5"
+        android:titleTextColor="#690C0C"
+        android:titleMarginStart="120dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:gravity="center"
+            android:layout_marginRight="90dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textAllCaps="true"
+            android:textColor="#E20A0A"/>
+    </Toolbar>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:textAlignment="center"
+    android:textColor="#1C48B4"
+    android:id="@+id/about_profession"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="5dp"
+        android:id="@+id/images"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="4"
+      android:layout_margin="5dp">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:text="Want to know more ?"
+        android:layout_weight="3"
+      android:layout_gravity="center"
+      android:elevation="3dp"
+      android:background="#33AD0A"
+      android:textColor="#F7F3F3"
+      android:textStyle="bold"
+      android:textSize="25dp"
+      android:layout_margin="5dp"
+      android:id="@+id/button_konw_more"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forward"
+        android:id="@+id/btn_knowmore_forward"/>
+  </LinearLayout>
+
+
+
+</LinearLayout>
